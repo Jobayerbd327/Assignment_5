@@ -1,0 +1,9 @@
+body{background:#1a230485;background-repeat:no-repeat;background-size:cover;}
+div#signupform{width:350px;padding:10px;background:#c485c575;margin:auto;border:2px solid #ddd;}
+div#form input,select {margin-bottom:10px; width:98%; padding-top:8px; padding-bottom:8px; border: 1px solid #ddd; border-radius:4px;}
+.signupTittle{background:#03a9f4;margin-bottom:10px;width:100%;}
+.signupTittle h2{ font-size: 14px; text-align:center; padding:10px; margin:0px; color:white; font-family:arial black;}
+.submitButton input{background:#03a9f4; color:white; padding:8px;width:100%; border:1px solid #0a8eca; border-radius:5px;}
+.form span{width:100%; padding:8px;margin-bottom:10px;display:block;color:white;}
+.form,h3,input{ color:black;}
+.form, h3{color:white;}

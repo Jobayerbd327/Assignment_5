@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #ded5d5;
+    font-family: arial;
+    line-height: 25px;
+}
+ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0px;
+}
+ul li {
+    float: left;
+    width: 215px;
+    height: 40px;
+    background: #1f351f;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 22;
+    margin: 2px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover {
+    background-color: black;
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+#section-title {
+    text-align: center;
+}
+
+#sectionBlocks {
+    background: #464652;
+}
+section {
+    padding: 50px 0px;
+}
+
+#sectionBlocks#blockTitle {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#blockTitle h1 span {
+    color: #ff5722;
+}
+
+#allblocks {
+    width: 1170px;
+    margin: auto;
+    color: #710505;
+}
+
+#service-block {
+    background: #f9fbfd;
+    width: 335px;
+    padding: 15px;
+    overflow: hidden;
+    line-height: 20px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 10px;
+}
+#service-block:hover {
+    background: transparent;
+    color: ;
+    cursor: pointer;
+    transition: all 1s;
+    transform: translatey(-10px);
+}
+#service-block:hover {
+    background: transparent;
+    color: #710505;
+    cursor: pointer;
+    transition: all 1s;
+    transform: translatey(-10px);
+}
+#service-block:hover i {
+    color: white;
+}
+#leftIcon {
+    width: 70px;
+    font-size: 50px;
+    float: left;
+    margin-top: 10px;
+    color: #ff5722;
+}
+#rightContent {
+    width: 250px;
+    float: right;
+}
+#leftIcon,
+#rightContent {
+    display: inline-block;
+}
+#rightContent h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+#rightContent p {
+    font-size: 13px;
+}
+#focus {
+    border: 1px solid #312e30fc;
+    color: white;
+    background: #0c5d8c;
+}
+#sec2 {
+    height: 200px;
+    background-color: #504c4c;
+    border: radius 5px;
+}
+#footer {
+    text-align: center;
+    color: #416a86;
+    border: 2px dotted #fbdcdc;
+    margin: top 40px;
+    padding: 40px;
+}
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+#footer span {
+    color: yellow;
+}

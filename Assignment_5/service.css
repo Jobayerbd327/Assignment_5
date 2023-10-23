@@ -1,0 +1,34 @@
+*{margin:0px; padding:0px;}
+body{font-family:arial; font-size:15px; line-height:25px;color:#333;}
+h1,h2,h3,h4,h5,h6{font-family:arial black;}
+#section-title{text-align:center;}
+
+
+#sectionBlocks{
+background:#464652;}
+section{padding:50px 0px;}
+
+#sectionBlocks#blockTitle{font-size: 30px;margin-bottom: 40px;color:white;
+
+}
+ 
+#blockTitle h1 span{color:#ff5722;}
+
+#allblocks{width:1170px;margin:auto;color: #710505;}
+
+
+#service-block{background:#f9fbfd;
+width:335px;padding:15px;
+overflow:hidden;line-height:20px;
+display:inline-block;
+border:1px solid #ddd;
+border-radius:3px;
+margin:10px;}
+#service-block:hover{background:transparent;color:;cursor:pointer;transition:all 1s;transform:translatey(-10px);}
+#service-block:hover{background:transparent;color:#710505;cursor:pointer;transition:all 1s;transform:translatey(-10px);}
+#service-block:hover i{color:white;}
+#leftIcon{width:70px;font-size:50px;float:left; margin-top:10px;color:#ff5722;}
+#rightContent{width:250px;float:right;}
+#leftIcon,#rightContent{display:inline-block;}
+#rightContent h2{margin-bottom:10px;font-size:18px;}
+#rightContent p{font-size:13px;}
